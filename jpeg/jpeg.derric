@@ -26,7 +26,7 @@ strings ascii
 
 sequence
   SOI
-  ([APP0JFIF APP0JFXX?] [APP1 APP2?])
+  ([APP0JFIF APP0JFXX?] [APP1 APP2?] APP0Picasa)
   (SOS DQT DHT DRI SOF0 SOF2 APPX COM)*
   EOI
 
@@ -54,6 +54,11 @@ APP0JFXX {
   identifier: "JFXX", 0;
   thumbnailformat: 0x10 | 0x11 | 0x13;
   thumbnaildata: size length-(offset(thumbnaildata)-offset(length));
+}
+
+APP0Picasa = Segment {
+  identifier: 0xE0;
+  data: "Picasa";
 }
 
 Segment {
