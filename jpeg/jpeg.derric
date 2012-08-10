@@ -26,7 +26,7 @@ strings ascii
 
 sequence
   SOI
-  ([APP0JFIF APP0JFXX?] [APP1 APP2?] APP0Picasa APP0JFXX APP14Adobe)
+  ([APP0JFIF APP0JFXX?] [APP1 APP2?] APP0Picasa APP0JFXX APP14Adobe APP13Photoshop)
   (SOS DQT DHT DRI SOF0 SOF2 APPX COM)*
   EOI
 
@@ -65,6 +65,14 @@ APP14Adobe = Segment {
   identifier: 0xEE;
   data: {
     text: "Adobe", 0;
+    rest: size (length-lengthOf(length))-lengthOf(text);
+  }
+}
+
+APP13Photoshop = Segment {
+  identifier: 0xED;
+  data: {
+    text: "Photoshop 3.0", 0;
     rest: size (length-lengthOf(length))-lengthOf(text);
   }
 }
