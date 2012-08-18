@@ -27,8 +27,10 @@ strings ascii
 sequence
   SOI
   ([APP0JFIF APP0JFXX?] [APP1 APP2?] APP0Picasa APP0JFXX APP14Adobe APP13Photoshop)?
+  (DQT DHT DRI SOF0 SOF2 APPX COM)*
+  SOS
   (SOS DQT DHT DRI SOF0 SOF2 APPX COM)*
-  EOI
+  EOI?
 
 structures
 SOI {
