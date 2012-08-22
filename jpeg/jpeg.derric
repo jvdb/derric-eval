@@ -26,10 +26,13 @@ strings ascii
 
 sequence
   SOI
-  ([APP0JFIF APP0JFXX?] [APP1 APP2?] APP0Picasa APP0JFXX APP14Adobe APP13Photoshop)?
-  (DQT DHT DRI SOF0 SOF1 SOF2 APPX COM)*
+  PADDING*
+  ([APP0JFIF PADDING* APP0JFXX?] [APP1 PADDING* APP2?] APP0Picasa APP0JFXX APP14Adobe APP13Photoshop)?
+  PADDING*
+  ([DQT PADDING*] [DHT PADDING*] [DRI PADDING*] [SOF0 PADDING*] [SOF1 PADDING*] [SOF2 PADDING*] [APPX PADDING*] [COM PADDING*])*
   SOS
-  (SOS DQT DHT DRI SOF0 SOF1 SOF2 APPX COM)*
+  (SOS [DQT PADDING*] [DHT PADDING*] [DRI PADDING*] [SOF0 PADDING*] [SOF1 PADDING*] [SOF2 PADDING*] [APPX PADDING*] [COM PADDING*])*
+  PADDING*
   EOI?
 
 structures
@@ -37,8 +40,12 @@ SOI {
   marker: 0xFF, 0xD8;
 }
 
+PADDING {
+  padding: 0xFF;
+}
+
 APP0JFIF {
-  marker: 0xFF, 0xE0;
+  marker: 0xE0;
   length: lengthOf(rgb) + (offset(rgb) - offset(length)) size 2;
   identifier: "JFIF", 0;
   version: size 2;
@@ -51,7 +58,7 @@ APP0JFIF {
 }
 
 APP0JFXX {
-  marker: 0xFF, 0xE0;
+  marker: 0xE0;
   length: size 2;
   identifier: "JFXX", 0;
   thumbnailformat: 0x10 | 0x11 | 0x13;
@@ -80,7 +87,6 @@ APP13Photoshop = Segment {
 }
 
 Segment {
-  marker: 0xFF;
   identifier: 0xD0..0xD7 | 0xDB..0xDC | 0xDF | 0xF0..0xFD;
   length: size 2;
   data: size length-(lengthOf(length));
@@ -107,5 +113,5 @@ APPX = Segment { identifier: 0xE0..0xEF; }
 COM = Segment { identifier: 0xFE; }
 
 EOI {
-  marker: 0xFF, 0xD9;
+  marker: 0xD9;
 }
