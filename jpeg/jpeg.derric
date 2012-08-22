@@ -29,9 +29,9 @@ sequence
   PADDING*
   ([APP0JFIF PADDING* APP0JFXX?] [APP1 PADDING* APP2?] APP0Picasa APP0JFXX APP14Adobe APP13Photoshop)?
   PADDING*
-  ([DQT PADDING*] [DHT PADDING*] [DRI PADDING*] [SOF0 PADDING*] [SOF1 PADDING*] [SOF2 PADDING*] [APPX PADDING*] [COM PADDING*])*
+  ([DQT PADDING*] [DHT PADDING*] [DRI PADDING*] [SOF0 PADDING*] [SOF1 PADDING*] [SOF2 PADDING*] [SOF3 PADDING*] [APPX PADDING*] [COM PADDING*])*
   SOS
-  (SOS [DQT PADDING*] [DHT PADDING*] [DRI PADDING*] [SOF0 PADDING*] [SOF1 PADDING*] [SOF2 PADDING*] [APPX PADDING*] [COM PADDING*])*
+  (SOS [DQT PADDING*] [DHT PADDING*] [DRI PADDING*] [SOF0 PADDING*] [SOF1 PADDING*] [SOF2 PADDING*] [SOF3 PADDING*] [APPX PADDING*] [COM PADDING*])*
   PADDING*
   EOI?
 
@@ -87,6 +87,7 @@ APP13Photoshop = Segment {
 }
 
 Segment {
+  /*marker: 0xFF;*/
   identifier: 0xD0..0xD7 | 0xDB..0xDC | 0xDF | 0xF0..0xFD;
   length: size 2;
   data: size length-(lengthOf(length));
@@ -109,6 +110,7 @@ DRI = Segment { identifier: 0xDD; }
 SOF0 = Segment { identifier: 0xC0; }
 SOF1 = Segment { identifier: 0xC1; }
 SOF2 = Segment { identifier: 0xC2; }
+SOF3 = Segment { identifier: 0xC3; }
 APPX = Segment { identifier: 0xE0..0xEF; }
 COM = Segment { identifier: 0xFE; }
 
