@@ -27,6 +27,8 @@ strings ascii
 sequence
   SOI
   PADDING*
+  COMASC?
+  PADDING*
   ([APP0JFIF PADDING* APP0JFXX?] [APP1 PADDING* APP2?] APP0Picasa APP0JFXX APP14Adobe APP13Photoshop)?
   PADDING*
   ([DQT PADDING*] [DHT PADDING*] [DRI PADDING*] [SOF0 PADDING*] [SOF1 PADDING*] [SOF2 PADDING*] [SOF3 PADDING*] [APPX PADDING*] [COMElanGmk PADDING*])*
@@ -118,6 +120,11 @@ COM = Segment { identifier: 0xFE; }
 
 COMElanGmk = COM {
   data: "SN 165-20106-02, Elan Gmk", 0x0D, 0x0A, "Internal use only", 0x0D, 0x0A, "Not for resale", 0;
+}
+
+COMASC = COM {
+  length: lengthOf(data) size 2;
+  data: "Created by AccuSoft Corp.", 0;
 }
 
 EOI {

@@ -1,2 +1,0 @@
-/commons/2/22/Robert_Eden.jpg: (result:false, lastLocation:30, lastRead:29, symbol: ( [ SOS ] ), sequence:  SOI PADDING      COM )
-/en/e/e7/BeerStreet.jpg: (result:false, lastLocation:30, lastRead:29, symbol: ( [ SOS ] ), sequence:  SOI PADDING      COM )
