@@ -1,5 +1,2 @@
-/commons/0/0b/Igrane,_Croatia.jpg: (result:false, lastLocation:109, lastRead:108, symbol: ( [ SOS ] ), sequence:  SOI PADDING  APP0JFIFPADDING  DQTPADDING  DQTPADDING  SOF0PADDING  COM )
-/commons/2/22/Robert_Eden.jpg: (result:false, lastLocation:30, lastRead:29, symbol: ( [ SOS ] ), sequence:  SOI PADDING    COM )
-/commons/7/74/New_building_of_University_of_Hradec_Kralove,_Czech_Republic.jpg: (result:false, lastLocation:109, lastRead:108, symbol: ( [ SOS ] ), sequence:  SOI PADDING  APP0JFIFPADDING  DQTPADDING  DQTPADDING  SOF0PADDING  COM )
-/commons/f/fc/Church_in_Igrane,_Croatia.jpg: (result:false, lastLocation:109, lastRead:108, symbol: ( [ SOS ] ), sequence:  SOI PADDING  APP0JFIFPADDING  DQTPADDING  DQTPADDING  SOF0PADDING  COM )
-/en/e/e7/BeerStreet.jpg: (result:false, lastLocation:30, lastRead:29, symbol: ( [ SOS ] ), sequence:  SOI PADDING    COM )
+/commons/2/22/Robert_Eden.jpg: (result:false, lastLocation:30, lastRead:29, symbol: ( [ SOS ] ), sequence:  SOI PADDING      COM )
+/en/e/e7/BeerStreet.jpg: (result:false, lastLocation:30, lastRead:29, symbol: ( [ SOS ] ), sequence:  SOI PADDING      COM )
