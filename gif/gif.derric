@@ -70,7 +70,7 @@ GraphicControlExtension {
   GraphicControlLabel: 0xf9;
   BlockSize: 4;
   Reserved: unit bit size 3;
-  DisposalMethod: 0..3 unit bit size 3;
+  DisposalMethod: unit bit size 3;
   UserInputFlag: unit bit;
   TransparancyFlag: unit bit;
   DelayTime: size 2;

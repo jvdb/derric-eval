@@ -96,7 +96,6 @@
 /commons/5/5e/The_Death_of_Hyacinthos.gif
 /commons/5/5f/Au_W31CA_CASIO_gif-anime1.gif
 /commons/5/5f/Camera_focal_length_distance.gif
-/commons/6/60/1845_trailmap.gif
 /commons/6/60/NWS-Mosaic-Radar-Composite.gif
 /commons/6/60/Speed_of_light_from_Earth_to_Moon.gif
 /commons/6/61/Wappen_Gemeinde_Reith_bei_Kitzbühel.gif
@@ -131,7 +130,6 @@
 /commons/7/7c/Religion.gif
 /commons/7/7d/Bezier_4_big.gif
 /commons/7/7e/GPShultz.gif
-/commons/7/7e/Jevandj.gif
 /commons/8/80/Single_coil_string_anim.gif
 /commons/8/81/FAGOCITOSI_BY_RAFF_.gif
 /commons/8/82/Sixteens.gif
@@ -244,7 +242,6 @@
 /commons/e/e7/Alert.gif
 /commons/e/e7/PLCC_20L.gif
 /commons/e/e7/Sfr.gif
-/commons/e/e9/Hawaii_national_parks_map.gif
 /commons/e/ea/Christaller's_central_place_theory_animation.gif
 /commons/e/ea/Wave_frequency.gif
 /commons/e/eb/PLCC_68L.gif
@@ -284,7 +281,6 @@
 /en/1/1c/South_Australian_premiers.gif
 /en/1/1e/No_Aliens.gif
 /en/1/1f/IVDALogo.gif
-/en/2/22/Wyliebulldog.gif
 /en/2/23/Howsamer.gif
 /en/2/23/Pcr.gif
 /en/2/27/Scott_Swedorski.gif
@@ -303,7 +299,6 @@
 /en/3/3b/Christiane_rinner_-_AMEN.gif
 /en/3/3c/Oldworldboot.gif
 /en/3/3c/Shoplifterssmiths.gif
-/en/3/3d/Shnetlogo.gif
 /en/3/3f/JSA-badge.gif
 /en/3/3f/MozBoxersUSA.gif
 /en/4/40/Vancouver_Tornado_-_RTX_loop.gif
@@ -325,9 +320,7 @@
 /en/5/57/Steven_the_Great.gif
 /en/5/58/Lorenzo_(2001)-Evening_of_10-30.gif
 /en/5/5c/Wasteland_animated_title.gif
-/en/5/5e/DanevirkeT.gif
 /en/5/5e/Polyworld.gif
-/en/6/60/Lutteroth.gif
 /en/6/61/Comphep.gif
 /en/6/64/MozBoyRacer.gif
 /en/6/68/Lr310807-grave-andrew2.gif
@@ -350,7 +343,6 @@
 /en/7/76/Giftofdragons.gif
 /en/7/77/Animated_construction_of_butterfly_curve.gif
 /en/7/78/Universityobserver.gif
-/en/8/80/Renee_Geyer_-_It's_A_Man's_Man's_World.gif
 /en/8/81/Sweden.gif
 /en/8/82/South_Dakota_counties_map.gif
 /en/8/84/SeniorWoo.com-Merry_Xmas!.gif
@@ -407,7 +399,6 @@
 /en/d/d1/Colorado-counties-map.gif
 /en/d/d3/Vortex.gif
 /en/d/d6/Dancing_daisy_large.gif
-/en/d/d7/Feb_dubbde_brass.gif
 /en/d/d8/LRYbutton.gif
 /en/d/dc/Fig4s.gif
 /en/d/dc/Torrentcomp.gif
