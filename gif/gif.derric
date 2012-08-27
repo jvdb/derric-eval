@@ -27,11 +27,12 @@ endian big
 sequence
   (Header87a Header89a)
   LogicalScreenDesc
+  GraphicControlExtension?
   (
-    [GraphicControlExtension? TableBasedImage CompressedDataBlock*]
-    [GraphicControlExtension? PlainTextExtension DataBlock*]
+    [TableBasedImage CompressedDataBlock*]
+    [PlainTextExtension DataBlock*]
     [ApplicationExtension DataBlock*]
-    [GraphicControlExtension? CommentExtension DataBlock*]
+    [CommentExtension DataBlock*]
   )
   ZeroBlock
   (
