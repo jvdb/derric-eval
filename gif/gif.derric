@@ -111,9 +111,6 @@ PlainTextExtension {
 ApplicationExtension {
   ExtensionIntroducer: 0x21;
   ExtensionLabel: 0xff;
-  BlockSize: 11;
-  AppIdentifier: type string size 8;
-  AppAuthCode: size 3;
 }
 
 CommentExtension {
