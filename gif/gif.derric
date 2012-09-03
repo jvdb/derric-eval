@@ -41,7 +41,7 @@ sequence
     [ApplicationExtension DataBlock* ZeroBlock]
     [GraphicControlExtension? CommentExtension DataBlock* ZeroBlock]
   )*
-  Trailer
+  Trailer?
 
 structures
 Header87a {
