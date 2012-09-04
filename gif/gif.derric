@@ -34,7 +34,7 @@ sequence
     [ApplicationExtension DataBlock*]
     [CommentExtension DataBlock*]
   )
-  ZeroBlock
+  ZeroBlock?
   (
     [GraphicControlExtension? TableBasedImage CompressedDataBlock* ZeroBlock]
     [GraphicControlExtension? PlainTextExtension DataBlock* ZeroBlock]
