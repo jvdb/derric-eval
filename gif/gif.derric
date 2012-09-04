@@ -41,6 +41,7 @@ sequence
     [ApplicationExtension DataBlock* ZeroBlock]
     [GraphicControlExtension? CommentExtension DataBlock* ZeroBlock]
   )*
+  [CommentExtension DataBlock]?
   Trailer?
 
 structures
