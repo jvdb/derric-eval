@@ -29,7 +29,7 @@ sequence
   IHDR
   (cHRM gAMA iCCP sBIT sRGB pHYs sPLT tIME iTXt tEXt zTXt prVW mkBF mkTS mkBS mkBT)*
   PLTE?
-  (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt)*
+  (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg)*
   IDAT
   IDAT*
   (tIME iTXt tEXt zTXt)*
@@ -157,4 +157,8 @@ mkBS = Chunk {
 
 mkBT = Chunk {
   chunktype: "mkBT";
+}
+
+vpAg = Chunk {
+  chunktype: "vpAg";
 }
