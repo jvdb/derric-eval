@@ -33,6 +33,7 @@ sequence
   IDAT
   IDAT*
   (tIME iTXt tEXt zTXt)*
+  bBPn?
   IEND
 
 structures
@@ -169,4 +170,8 @@ oFFs = Chunk {
 
 tpNG = Chunk {
   chunktype: "tpNG";
+}
+
+bBPn = Chunk {
+  chunktype: "bBPn";
 }
