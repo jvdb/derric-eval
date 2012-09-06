@@ -29,7 +29,7 @@ sequence
   IHDR
   (cHRM gAMA iCCP sBIT sRGB pHYs sPLT tIME iTXt tEXt zTXt prVW mkBF mkTS mkBS mkBT oFFs tpNG)*
   PLTE?
-  (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg)*
+  (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg oFFs)*
   IDAT
   IDAT*
   (tIME iTXt tEXt zTXt cmOD cpIp meTa eXIF)*
