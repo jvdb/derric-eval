@@ -34,7 +34,7 @@ sequence
   IDAT*
   (tIME iTXt tEXt zTXt cmOD cpIp meTa eXIF)*
   bBPn?
-  IEND
+  IEND?
 
 structures
 Signature { /* Signature, header for all PNG files. */
