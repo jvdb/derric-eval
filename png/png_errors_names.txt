@@ -1,8 +1,5 @@
 /commons/8/8f/Seal_of_KAIST.png
 /commons/a/a9/Theviceroyaltyofperu.png
 /commons/d/d4/1.2_The_Jewish_Bolshevism_Image.png
-/commons/e/e0/Arrondissement_de_Toul.PNG
 /commons/e/e5/Sherborne_-_Dorset_dot.png
-/commons/e/e7/Bash_screenshot.png
 /commons/e/ed/Ukiplogo.png
-/en/e/eb/GMcGrathBowling.png

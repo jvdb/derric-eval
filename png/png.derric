@@ -27,7 +27,7 @@ endian big
 sequence
   Signature
   IHDR
-  (bKGD cHRM gAMA iCCP sBIT sRGB pHYs sPLT tIME iTXt tEXt zTXt prVW mkBF mkTS mkBS mkBT oFFs tpNG tpNg acTL fcTL)*
+  (bKGD cHRM gAMA iCCP sBIT sRGB pHYs sPLT tIME iTXt tEXt zTXt prVW mkBF mkTS mkBS mkBT oFFs tpNG tpNg acTL fcTL vpAg)*
   PLTE?
   (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg oFFs gIFg cmPP)*
   IDAT
