@@ -32,7 +32,7 @@ sequence
   (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg)*
   IDAT
   IDAT*
-  (tIME iTXt tEXt zTXt)*
+  (tIME iTXt tEXt zTXt cmOD cpIp)*
   bBPn?
   IEND
 
@@ -174,4 +174,12 @@ tpNG = Chunk {
 
 bBPn = Chunk {
   chunktype: "bBPn";
+}
+
+cmOD = Chunk {
+  chunktype: "cmOD";
+}
+
+cpIp = Chunk {
+  chunktype: "cpIp";
 }
