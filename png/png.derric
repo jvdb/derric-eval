@@ -29,7 +29,7 @@ sequence
   IHDR
   (bKGD cHRM gAMA iCCP sBIT sRGB pHYs sPLT tIME iTXt tEXt zTXt prVW mkBF mkTS mkBS mkBT oFFs tpNG tpNg)*
   PLTE?
-  (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg oFFs gIFg)*
+  (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg oFFs gIFg cmPP)*
   IDAT
   IDAT*
   (tIME iTXt tEXt zTXt cmOD cpIp meTa eXIF)*
@@ -198,4 +198,8 @@ gIFg = Chunk {
 
 tpNg = Chunk {
   chunktype: "tpNg";
+}
+
+cmPP = Chunk {
+  chunktype: "cmPP";
 }

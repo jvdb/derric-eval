@@ -1,6 +1,4 @@
-/commons/0/0a/76th_Maintenance_Wing.png
 /commons/1/14/Animated_PNG_example_bouncing_beach_ball.png
-/commons/5/51/Hippocampal-pyramidal-cell.png
 /commons/8/8f/Seal_of_KAIST.png
 /commons/9/98/FxAnimated64.png
 /commons/a/a9/Theviceroyaltyofperu.png
@@ -8,12 +6,5 @@
 /commons/e/e0/Arrondissement_de_Toul.PNG
 /commons/e/e5/Sherborne_-_Dorset_dot.png
 /commons/e/e7/Bash_screenshot.png
-/commons/e/ea/Seal_of_Solomon_009.png
 /commons/e/ed/Ukiplogo.png
-/en/1/1b/Iscae.png
-/en/2/2a/Nikas17.png
-/en/2/2c/Dewittinsignia.png
-/en/4/4a/Nikas9.png
-/en/7/73/Seal_of_delano.png
-/en/b/b6/Pedro_Elías_Gutiérrez.png
 /en/e/eb/GMcGrathBowling.png
