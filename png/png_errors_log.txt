@@ -1,5 +1,2 @@
-/commons/8/8f/Seal_of_KAIST.png: (result:false, lastLocation:61, lastRead:60, symbol: ( [ IDAT ] ), sequence:  Signature IHDR bKGD pHYs tIME tEXt   )
 /commons/a/a9/Theviceroyaltyofperu.png: (result:false, lastLocation:61, lastRead:60, symbol: ( [ IDAT ] ), sequence:  Signature IHDR sBIT pHYs tEXt tEXt   )
 /commons/d/d4/1.2_The_Jewish_Bolshevism_Image.png: (result:false, lastLocation:61, lastRead:60, symbol: ( [ IDAT ] ), sequence:  Signature IHDR pHYs gAMA cHRM iCCP   )
-/commons/e/e5/Sherborne_-_Dorset_dot.png: (result:false, lastLocation:45, lastRead:44, symbol: ( [ IDAT ] ), sequence:  Signature IHDR oFFs pHYs   )
-/commons/e/ed/Ukiplogo.png: (result:false, lastLocation:53, lastRead:52, symbol: ( [ IDAT ] ), sequence:  Signature IHDR pHYs gAMA cHRM   )
