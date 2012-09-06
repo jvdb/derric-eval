@@ -1,4 +1,3 @@
-/commons/0/07/Hudson_Screenshot.png
 /commons/0/0a/76th_Maintenance_Wing.png
 /commons/1/14/Animated_PNG_example_bouncing_beach_ball.png
 /commons/5/51/Hippocampal-pyramidal-cell.png
@@ -11,7 +10,6 @@
 /commons/e/e7/Bash_screenshot.png
 /commons/e/ea/Seal_of_Solomon_009.png
 /commons/e/ed/Ukiplogo.png
-/en/0/06/Eternal_Fighter_cover.png
 /en/1/1b/Iscae.png
 /en/2/2a/Nikas17.png
 /en/2/2c/Dewittinsignia.png
