@@ -1,6 +1,4 @@
-/commons/1/14/Animated_PNG_example_bouncing_beach_ball.png
 /commons/8/8f/Seal_of_KAIST.png
-/commons/9/98/FxAnimated64.png
 /commons/a/a9/Theviceroyaltyofperu.png
 /commons/d/d4/1.2_The_Jewish_Bolshevism_Image.png
 /commons/e/e0/Arrondissement_de_Toul.PNG

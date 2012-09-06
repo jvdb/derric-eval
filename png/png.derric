@@ -27,7 +27,7 @@ endian big
 sequence
   Signature
   IHDR
-  (bKGD cHRM gAMA iCCP sBIT sRGB pHYs sPLT tIME iTXt tEXt zTXt prVW mkBF mkTS mkBS mkBT oFFs tpNG tpNg)*
+  (bKGD cHRM gAMA iCCP sBIT sRGB pHYs sPLT tIME iTXt tEXt zTXt prVW mkBF mkTS mkBS mkBT oFFs tpNG tpNg acTL fcTL)*
   PLTE?
   (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg oFFs gIFg cmPP)*
   IDAT
@@ -202,4 +202,12 @@ tpNg = Chunk {
 
 cmPP = Chunk {
   chunktype: "cmPP";
+}
+
+acTL = Chunk {
+  chunktype: "acTL";
+}
+
+fcTL = Chunk {
+  chunktype: "fcTL";
 }
