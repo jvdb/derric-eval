@@ -32,7 +32,7 @@ sequence
   (bKGD hIST tRNS pHYs sPLT tIME iTXt tEXt zTXt vpAg)*
   IDAT
   IDAT*
-  (tIME iTXt tEXt zTXt cmOD cpIp meTa)*
+  (tIME iTXt tEXt zTXt cmOD cpIp meTa eXIF)*
   bBPn?
   IEND
 
@@ -186,4 +186,8 @@ cpIp = Chunk {
 
 meTa = Chunk {
   chunktype: "meTa";
+}
+
+eXIF = Chunk {
+  chunktype: "eXIF";
 }
